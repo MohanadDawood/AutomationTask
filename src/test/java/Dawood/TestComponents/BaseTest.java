@@ -32,7 +32,7 @@ public class BaseTest {
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Dawood\\Resources\\GlobalData.properties");
         prop.load(fis);
 /// /
-
+/// /
 
         //String browserName = prop.getProperty("browser");
 
