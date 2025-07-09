@@ -28,7 +28,6 @@ public class BaseTest {
     public LandingPage landingPage;
 
     public WebDriver driverInitialize() throws IOException {
-/// /
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Dawood\\Resources\\GlobalData.properties");
         prop.load(fis);
