@@ -31,7 +31,7 @@ public class BaseTest {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Dawood\\Resources\\GlobalData.properties");
         prop.load(fis);
-
+/// /
 
 
         //String browserName = prop.getProperty("browser");
